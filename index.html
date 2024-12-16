@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch The Numbers</title>
+    <link rel="icon" href="images/favicon.ico" sizes="32x32"> 
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1> Touch 'Em! </h1>
+    <button onclick="onInitGame(9)">start 3x3</button>
+    <button onclick="onInitGame(16)">start 4x4</button>
+    <button onclick="onInitGame(25)">start 5x5</button>
+    <button onclick="onInitGame(36)">start 6x6</button>
+    <div class="game">
+        <div class="timer">
+            <span class="digit" id="sec">00</span>
+            <span class="txt">Sec</span>
+            <span class="digit" id="count">00</span>
+            <span class="txt">MilSec</span>
+        </div>
+
+        <div class="table">
+        </div>
+    </div>     
+    <script src="js/main.js"></script>
+</body>
+</html>

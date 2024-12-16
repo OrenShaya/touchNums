@@ -1,0 +1,42 @@
+body {
+    background-color: lightslategrey;
+    margin: 30px;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+td {
+  text-align: center;
+  font-size: x-large;
+  margin: 30px;
+  height: 60px;
+  width: 60px;
+  border-radius: 25%;
+  user-select: none;
+  background-color: orange;
+  color:seashell;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+.pressed {
+  background-color: black;
+  color: wheat;
+}
+
+.timer {
+  margin-bottom: 20px;
+}
+
+.digit {
+  font-size: x-large;
+}
+
+.txt {
+  font-size: small;
+}
